@@ -1,0 +1,166 @@
+.layanan{
+    padding: 20px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+
+}
+
+
+
+.layanan h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+
+}
+.layanan ul{
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+.layanan ul li{
+    font-size: 40px;
+    color:darkgoldenrod;
+    text-align: center;
+ 
+    
+    
+}
+.layanan ul li h4{
+    font-size: 20px;
+    color:darkgoldenrod;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+       
+}
+
+/* ======================================== */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 20px;
+    justify-content:space-around;
+    align-items:center;
+    background-color: black;
+    border-radius:6px;
+}
+
+.infoImage{
+    width: 100%;
+    padding: 10px;
+}
+
+.infoImage img{
+    width: 100%;
+    
+}
+
+.judul{
+    width: 100%;
+    color:white;
+}
+.judul p{
+    line-height: 25px;
+    color:white;
+    text-align:left;
+}
+
+/* ======================== */
+
+.img-documentasi{
+    box-shadow:0 0 5px rgba(0,0,0,0.4) !important;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.img-documentasi h3{
+    display: none;
+}
+.img-documentasi p{
+    display: none;
+}
+
+
+/* Breakpoint Responsive */
+
+@media screen and (min-width: 1000px){
+    .info{
+        display: flex;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        margin-bottom: 70px;
+        padding: 20px;
+        justify-content:space-around;
+        align-items:center;
+        background-color: black;
+        border-radius:6px;
+    }
+}
+
+@media screen and (min-width: 760px){
+    .layanan{
+        width: 60%;
+    }
+    .layanan ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style:none;
+        text-decoration: none;
+        
+    }
+    .img-documentasi{
+        box-shadow:0 0 5px rgba(0,0,0,0.4) !important;
+        box-sizing: border-box;
+        padding: 5px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .img-documentasi p{
+        display: inline;
+    }
+
+    .img-documentasi h3{
+        display:block;
+    }
+}
+
+@media screen and (min-width: 200px){
+    .info{
+        width:100%;
+    }.judul{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 400px){
+    .info{
+        width:100%;
+    }
+}
+
+@media screen and (min-width: 700px){
+    .info{
+        width:70%;
+    }
+}

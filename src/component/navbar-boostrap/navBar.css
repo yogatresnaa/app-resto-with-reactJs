@@ -1,0 +1,12 @@
+.nav{
+    background-color: black !important;
+    padding: 10px;
+}
+.nav-boostrap h2{
+    color:grey !important;
+}
+.dropdown-menu{
+    background-color:white !important;
+    width: 30px;
+}
+

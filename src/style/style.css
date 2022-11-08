@@ -1,0 +1,91 @@
+
+@import "header.css";
+@import "menusepesial.css";
+@import "galery.css";
+@import "content.css";
+@import "footer.css";
+@import "header.css";
+@import "lamp.css";
+@import "../component/navbar-boostrap/navBar.css";
+/* @import "navBostrap.css"; */
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+/* ================================= */
+
+.hero{
+    width: 100%;
+    min-height: 300px;
+}
+
+.hero img{
+    width: 100%;
+
+}
+
+@media screen and (max-width: 500px){
+    .hero{
+       min-height: 300px;
+       width: 100%;
+       background-image: url('../../public/asset/hero1.jpg');
+       background-position: center;
+    
+       
+       background-repeat: no-repeat;
+    }
+
+    .hero img{
+        display: none;
+    }
+}
+
+/* ================================ */
+
+
+
+/* =============================== */
+
+
+
+
+
+
+
+
+
+
+/* Page Cafe =============================== */
+
+.cafe {
+    border: 1px solid red;
+   
+}
+
+
+
+/* Page AUla =============================== */
+
+.cafe {
+    border: 1px solid red;
+   
+}
