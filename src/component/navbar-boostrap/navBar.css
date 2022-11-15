@@ -1,12 +1,21 @@
+.Navbar{
+    margin-bottom: 50px;
+}
 .nav{
-    background-color: black !important;
+    background-color: rgb(155, 4, 105) !important;
     padding: 10px;
+    margin-bottom: 50px;
 }
 .nav-boostrap h2{
-    color:grey !important;
+    color:white !important;
+    font-size:40px;
+}
+.nav-boostrap h2 p{
+ font-size: 11px;
 }
 .dropdown-menu{
     background-color:white !important;
     width: 30px;
 }
+
 

@@ -1,0 +1,97 @@
+.menu h2{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu-nav{
+    width: 100%;
+    margin: 10px auto;
+    background-color: rgb(155, 4, 105);
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-areas: 
+    'menusatu menudua menutiga'
+    'menuempat menulima menuenam'
+    ;
+    padding: 10px;
+    gap: 20px;
+    justify-items:center;
+    border-radius: 5px;
+
+
+}
+
+.menu-nav h3{
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.menu-nav p{
+    font-size: 10px;
+}
+
+.menu1{
+    grid-area: menusatu;
+    box-shadow:0 0 5px rgb(254, 252, 252);
+    width: 60%;
+    border-radius: 10px;
+
+}
+
+.menu1:hover,
+.menu2:hover,
+.menu3:hover,
+.menu4:hover,
+.menu5:hover,
+.menu6:hover {
+    background-color:gray;
+}
+
+
+.menu2{
+    grid-area: menudua;
+    box-shadow:0 0 5px rgb(254, 252, 252);
+    width: 60%;
+    border-radius: 10px;
+    
+}
+
+
+.menu3{
+    grid-area: menutiga;
+    box-shadow:0 0 5px rgb(254, 252, 252);
+    width: 60%;
+    border-radius: 10px;
+}
+
+.menu4{
+    grid-area: menuempat;
+    box-shadow:0 0 5px rgb(254, 252, 252);
+    width: 60%;
+    border-radius: 10px;
+}
+.menu5{
+    grid-area: menulima;
+    box-shadow:0 0 5px rgb(254, 252, 252);
+    width: 60%;
+    border-radius: 10px;
+}
+
+.menu6{
+    grid-area: menuenam;
+    box-shadow:0 0 5px rgb(254, 252, 252);
+    width: 60%;
+    border-radius: 10px;
+}
+
+
+/* Breakpoint */
+
+@media screen and (min-width: 760px){
+    .menu-nav{
+        display: flex;
+        background-color: gainsboro;
+        width: 60%;
+    }
+}

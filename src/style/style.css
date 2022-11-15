@@ -6,7 +6,16 @@
 @import "footer.css";
 @import "header.css";
 @import "lamp.css";
+/* Cafe css */
+@import "../component/component-cafe/cafe.css";
+
 @import "../component/navbar-boostrap/navBar.css";
+
+@import '../component/component-cafe/carousel.css';
+
+@import '../component//component-cafe/menu.css';
+
+@import '../component//component-cafe/tablemenucafe.css';
 /* @import "navBostrap.css"; */
 
 
@@ -59,11 +68,6 @@
     }
 }
 
-/* ================================ */
-
-
-
-/* =============================== */
 
 
 
@@ -74,18 +78,6 @@
 
 
 
-/* Page Cafe =============================== */
-
-.cafe {
-    border: 1px solid red;
-   
-}
 
 
 
-/* Page AUla =============================== */
-
-.cafe {
-    border: 1px solid red;
-   
-}

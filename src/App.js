@@ -9,6 +9,7 @@ import AulaSerba from './pages/AulaSerba';
 import Resto from './pages/Resto';
 import Resepsi from './pages/Resepsi';
 import Senam from './pages/Senam';
+import Karoke from './pages/karoke';
 
 
 function App(){
@@ -27,12 +28,12 @@ function App(){
                     <Route path ="/resto" element={<Resto/>}/>
                     <Route path="/resepsi" element={<Resepsi/>}/>
                     <Route path="/senam" element={<Senam/>}/>
+                    <Route path="/karoke" element={<Karoke/>}/>
                 </Routes>               
             </main>
 
             <footer>
-                <Footer/>
-            
+                <Footer/>          
             </footer>
          
         </Container>

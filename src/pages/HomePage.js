@@ -2,11 +2,11 @@ import React from 'react';
 import { getMenu } from '../utils/dataMenu';
 import { galeryimage } from '../utils/dataGalery';
 import HeroImage from '../component/HeroImage/HeroImage';
-import LayananResto from '../component/Content/Layanan';
 import InfoProfil from '../component/Content/Info';
 import Listmenu from '../component/MenuSepesial/ListMenu';
 import ListGalery from '../component/Galery/ListGalery';
 import ImageDocumentasi from '../component/Content/ImageDoc';
+import MenuNav from '../component/component-cafe/menu';
 
 
 class HomePage extends React.Component {
@@ -27,7 +27,7 @@ class HomePage extends React.Component {
                 <div className='hero'>
                     <HeroImage/>
                 </div>
-                    <LayananResto/>
+                    <MenuNav/>
                     <InfoProfil />
                     <ImageDocumentasi/>
                 <div className='list'>
