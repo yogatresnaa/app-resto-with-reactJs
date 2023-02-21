@@ -1,6 +1,6 @@
 let dataCafe = [
     {
-        id: '1',
+        id: 1,
         no : '1',
         name: 'Nasi Goreng Spesial',
         Harga : 'Rp. 30.000',
@@ -9,7 +9,7 @@ let dataCafe = [
     },
 
     {
-        id: '2',
+        id: 2,
         no : '2',
         name: 'Ayam Kremes',
         Harga : 'Rp. 35.000',
@@ -18,7 +18,7 @@ let dataCafe = [
     },
 
     {
-        id: '3',
+        id: 3,
         no : '3',
         name: 'Sop Daging',
         Harga : 'Rp. 40.000',
@@ -26,7 +26,7 @@ let dataCafe = [
 
     },
     {
-        id: '4',
+        id: 4,
         no : '4',
         name: 'Sop Iga',
         Harga : 'Rp. 50.000',
@@ -35,7 +35,7 @@ let dataCafe = [
     },
 
     {
-        id: '5',
+        id: 5,
         no : '5',
         name: 'Nasi Goreng Spesial',
         Harga : 'Rp. 30.000',
@@ -44,7 +44,7 @@ let dataCafe = [
     },
 
     {
-        id: '6',
+        id: 6,
         no : '6',
         name: 'Ayam Kremes',
         Harga : 'Rp. 35.000',
@@ -53,7 +53,7 @@ let dataCafe = [
     },
 
     {
-        id: '7',
+        id: 7,
         no : '7',
         name: 'Sop Daging',
         Harga : 'Rp. 40.000',
@@ -61,7 +61,7 @@ let dataCafe = [
 
     },
     {
-        id: '8',
+        id: 8,
         no : '8',
         name: 'Sop Iga',
         Harga : 'Rp. 50.000',

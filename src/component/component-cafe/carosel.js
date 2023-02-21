@@ -25,7 +25,7 @@ function ImageDoc() {
             <div className='eaa'>
                 <div className='u'>
                 <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            apa kabar semua sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             </p>
                 </div>
             

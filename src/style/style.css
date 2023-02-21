@@ -1,6 +1,5 @@
 
 @import "header.css";
-@import "menusepesial.css";
 @import "galery.css";
 @import "content.css";
 @import "footer.css";
@@ -16,6 +15,11 @@
 @import '../component//component-cafe/menu.css';
 
 @import '../component//component-cafe/tablemenucafe.css';
+
+@import '../component/MenuCafe/menucafe.css';
+
+/* homepage Dokmumentasi */
+@import "../component/DokumetasiHome/dokumentasi.css";
 /* @import "navBostrap.css"; */
 
 
